@@ -1,0 +1,42 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <title>Sketchy</title>
+    <link rel="stylesheet" href="css/etch-a-sketch.css">
+    <link rel="stylesheet" href="css/normalize.css">
+  </head>
+  
+  <body>
+    <header>
+      <h1>Sketchy</h1>
+      <h2>An Excercise From The Odin Project</h2>
+    </header>
+    <div id="main-wrapper">
+      <div id="sketch-area">
+        <table>
+          <tbody></tbody>
+        </table>
+      </div>
+      <aside>
+        <button id="clear-button" type="button">X</button>
+        <button id="new-button" type="submit">new</button>
+        <div id="grid-info">
+          <input type="text" placeholder="grid size">
+          <button id="double-button" type="button">double</button>
+          <p id="current-size">[16]</p>
+          <p id="error-message">Please enter a number.</p>
+        </div>
+      </aside>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+      if (typeof jQuery === 'undefined') {
+          document.write(unescape('%3Cscript%20src%3D%22js/jquery(2.x).min.js%22%3E%3C/script%3E'));
+        }
+    </script>
+    <script src="js/etch-a-sketch.js"></script>
+    <footer><a href="https://github.com/xreid">xreid</a></footer>
+  </body>
+
+</html>

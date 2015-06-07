@@ -1,0 +1,171 @@
+aside {
+  border: none;
+  display: block;
+  float: right;
+  height: 640px;
+  position: relative;
+  width: 399px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid #999;
+  border-radius: 100%;
+  display: block;
+  height: 100px;
+  text-align: center;
+  transition: background-color .25s ease-in-out;
+  transition: color .25s ease-in-out;
+  width: 100px;
+  position: relative;
+}
+
+button:focus {
+  outline: none;
+}
+
+body {
+  text-align: center;
+}
+
+button:hover {
+  cursor: default;
+  color: white;
+}
+
+#clear-button {
+  margin: auto;
+  font-weight: 100;
+  font-size: 3em;
+}
+
+#clear-button:hover {
+  background-color: rgba(236, 28, 28, .62);
+}
+
+#double-button {
+  border: 1px solid #999;
+  border-radius: 3px;
+  display: block;
+  font-size: .75em;
+  height: 18px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  top: 48px;
+  width: 100px;
+}
+
+#double-button:hover {
+  background-color: rgba(88, 151, 158, 0.6);
+}
+
+#error-message {
+  color: rgba(246, 28, 28, .52);
+  display: none;
+}
+
+.filled {
+  background-color: #333;
+}
+
+footer {
+  bottom: 2px;
+  position: absolute;
+  right: 10px;
+  text-align: right;
+}
+
+footer a {
+  font-size: .6em;
+  text-decoration: none;
+}
+
+footer a:hover {
+  cursor: default;
+  font-size: .75em;
+}
+
+#grid-info {
+  display: none;
+}
+
+header *{
+  font-weight: 200;
+  text-align: center;
+}
+
+html *{
+  color: #555;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+h2 {
+  color: #999;
+  font-size: 1.25em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+}
+
+input[type="text"] {
+  border: 1px solid #999;
+  border-radius: 3px;
+  font-size: .75em;
+  position: relative;
+  text-align: center;
+  top: 45px;
+  width: 100px;
+}
+
+input[type="text"]:hover {
+  border-color: rgba(88, 151, 158, 0.6);
+}
+
+input[type="text"]:focus {
+  border-color: rgba(88, 151, 158, 0.6);
+  outline: none;
+}
+
+#main-wrapper {
+  height: 640px;
+  position: relative;
+
+}
+
+#new-button {
+  font-weight: 100;
+  font-size: 2em;
+  margin: auto;
+  top: 40px;
+}
+
+#new-button:hover {
+  background-color: rgba(88, 151, 158, 0.6);
+}
+
+p {
+  display: block;
+  font-size: .75em;
+  position: relative;
+  top: 38px;
+}
+
+#sketch-area {
+  border: 1px solid #eee;
+  display: inline-block;
+  height: 640px;
+  margin: auto;
+  margin-right: -399px;
+  width: 640px;
+  position: relative;
+}
+
+table {
+  height: 640px;
+  width: 640px;
+}
+
+td {
+  background-color: whitesmoke;
+}
